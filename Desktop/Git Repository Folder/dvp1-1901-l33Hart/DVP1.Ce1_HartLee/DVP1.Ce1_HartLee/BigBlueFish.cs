@@ -73,7 +73,7 @@ namespace DVP1.Ce1_HartLee
                         BigFish = fishSize[i];
                         SelectColor = "red";
                     }
-                    else if (fishSize[i] < LittleFish)
+                    if (fishSize[i] < LittleFish)
                     {
                         LittleFish = fishSize[i];
                     }
@@ -91,7 +91,7 @@ namespace DVP1.Ce1_HartLee
                             BigFish = fishSize[i];
                             SelectColor = "blue";
                         }
-                        else if ((fishColor[i] == "blue")&&(fishSize[i] < LittleFish))
+                        if ((fishColor[i] == "blue")&&(fishSize[i] < LittleFish))
                         {
                             LittleFish = fishSize[i];
                         }
@@ -112,7 +112,7 @@ namespace DVP1.Ce1_HartLee
                         SelectColor = "orange";
 
                     }
-                    else if ((fishColor[i] == "orange")&&(fishSize[i] < LittleFish))
+                    if ((fishColor[i] == "orange")&&(fishSize[i] < LittleFish))
                     {
                         LittleFish = fishSize[i];
                     }
@@ -131,7 +131,7 @@ namespace DVP1.Ce1_HartLee
                             BigFish = fishSize[i];
                         SelectColor = "green";
                         }
-                    else if ((fishSize[i] < LittleFish)&& (fishColor[i] == "green"))
+                    if ((fishSize[i] < LittleFish)&& (fishColor[i] == "green"))
                     {
                         LittleFish = fishSize[i];
                     }
