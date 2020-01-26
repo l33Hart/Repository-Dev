@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TicTacToexml
+  r1c1button="0"
+  r1c2button="-1"
+  r1c3button="-1"
+  r2c1button="-1"
+  r2c2button="1"
+  r2c3button="0"
+  r3c1button="-1"
+  r3c2button="1"
+  r3c3button="-1" />

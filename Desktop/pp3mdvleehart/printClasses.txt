@@ -1,0 +1,35 @@
+Class Name : Emerging Interface Design
+Course     : Online
+Code       : DEV1425
+Start Date : 09DDYYYY
+Complete   : Yes
+Crade      : 88.05
+
+Class Name : Career Module II
+Course     : Resume Fundamentals Online
+Code       : CAR2012
+Start Date : 01DDYYYY
+Complete   : Yes
+Crade      : 95.00
+
+Class Name : Project & Portfolio III
+Course     : Mobile Development - Online
+Code       : MDV239-0
+Start Date : 01DDYYYY
+Complete   : Yes
+Crade      : 0
+
+Class Name : Visual Frameworks
+Course     : Online
+Code       : MDV1830
+Start Date : 11DDYYYY
+Complete   : Yes
+Crade      : 86.04
+
+Class Name : Interfaces and Usability
+Course     : Online
+Code       : DEV2318
+Start Date : 01DDYYYY
+Complete   : Yes
+Crade      : 74.61
+
