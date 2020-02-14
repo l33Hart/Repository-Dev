@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.7.26)
 # Database: MobileDev
-# Generation Time: 2020-02-09 20:16:25 +0000
+# Generation Time: 2020-02-14 04:10:37 +0000
 # ************************************************************
 
 
@@ -35,6 +35,19 @@ CREATE TABLE `Classes` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `Classes` WRITE;
+/*!40000 ALTER TABLE `Classes` DISABLE KEYS */;
+
+INSERT INTO `Classes` (`ID`, `CourseName`, `CourseNumber`, `Term`, `CreditHours`, `Track`)
+VALUES
+	(2,'Creative Presentation',1011,'GEN',3,'Section'),
+	(3,'Psychology of Play',1016,'DEP',3,'Section'),
+	(5,'English Composition I',1109,'ENC',4,'Section'),
+	(6,'Discrete Mathematics',1100,'MAD',4,'Section'),
+	(9,'Technology in the Entertainment and Media Industries',1004,'TEM',4,'Section');
+
+/*!40000 ALTER TABLE `Classes` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 

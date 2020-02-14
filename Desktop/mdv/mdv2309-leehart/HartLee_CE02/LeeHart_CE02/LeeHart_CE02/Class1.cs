@@ -21,7 +21,7 @@ namespace LeeHart_CE02
         public Class1(ListViewItem list)
         {
             string i;
-            i = list.SubItems[5].ToString();
+            i = list.SubItems[5].Name.ToString();
             int.TryParse(i, out id);
             courseName = list.SubItems[0].Name.ToString();
             i = list.SubItems[1].Name.ToString();
@@ -30,6 +30,7 @@ namespace LeeHart_CE02
             i = list.SubItems[3].Name.ToString();
             double.TryParse(i, out creditHours);
             track = list.SubItems[4].Name.ToString();
+
 
 
         }
@@ -74,13 +75,20 @@ namespace LeeHart_CE02
         public string AddQuery()
         {
             string re = $"Insert into Classes (CourseName, CourseNumber, Term, CreditHours, Track) Value('{courseName}',{courseNumber.ToString()},'{term}',{creditHours.ToString()},'{track}')";
-            MessageBox.Show(re);
+           
             return re;
         }
         public string EditQuery()
         {
-            string re = $"Insert into Classes (CourseName, CourseNumber, Term, CreditHours, Track) where ID = {id} Value('{courseName}',{courseNumber.ToString()},'{term}',{creditHours.ToString()},'{track}')";
-            MessageBox.Show(re);
+            string re = $"Update Classes set CourseName = '{courseName}', CourseNumber = {courseNumber.ToString()}, Term = '{term}', CreditHours = {creditHours.ToString()}, Track = '{track}' where ID = {id}"; 
+           
+            return re;
+
+
+        }
+        public string deleteRecord()
+        {
+            string re = $"Delete From Classes where ID = {id}";
             return re;
 
 

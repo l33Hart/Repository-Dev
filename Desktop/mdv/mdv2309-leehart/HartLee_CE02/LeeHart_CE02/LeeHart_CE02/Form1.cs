@@ -12,6 +12,7 @@ namespace LeeHart_CE02
 {
     public partial class Form1 : Form
     {
+        int indexer = -1;
         string query = @"Select * from Classes";
         DataCall call = new DataCall();
         public Form1()
@@ -91,7 +92,7 @@ namespace LeeHart_CE02
             ListViewItem list = Display;
             Class1 course = new Class1(list);
             call.AddData(course.AddQuery());
-
+            FillListView();
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -100,7 +101,7 @@ namespace LeeHart_CE02
             {
 
                 Display = listView1.SelectedItems[0];
-
+               indexer =  listView1.Items.IndexOf(listView1.SelectedItems[0]);
 
             }
         }
@@ -108,8 +109,18 @@ namespace LeeHart_CE02
         private void button2_Click(object sender, EventArgs e)
         {
             ListViewItem list = Display;
+            listView1.Items[indexer] = list;
             Class1 course = new Class1(list);
             call.AddData(course.EditQuery());
+            FillListView();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Class1 course = new Class1(listView1.Items[indexer]);
+            call.AddData(course.deleteRecord());
+            FillListView();
         }
     }
 }

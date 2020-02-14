@@ -23,7 +23,7 @@ namespace LeeHart_CE02
         OpenFileDialog open = new OpenFileDialog();
         public DataCall()
         {
-            
+            MessageBox.Show("Select your TXT file with your IP");
             if (open.ShowDialog() == DialogResult.OK)
             {
                 using (StreamReader read = new StreamReader(open.FileName))
