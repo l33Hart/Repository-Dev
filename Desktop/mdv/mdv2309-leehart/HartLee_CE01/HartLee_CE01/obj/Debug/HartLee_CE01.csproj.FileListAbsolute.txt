@@ -1,0 +1,11 @@
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\bin\Debug\HartLee_CE01.exe.config
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\bin\Debug\HartLee_CE01.exe
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\bin\Debug\HartLee_CE01.pdb
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.Form1.resources
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.TeamInfoForm.resources
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.exe
+\\vmware-host\Shared Folders\Desktop\mdv\mdv2309-leehart\HartLee_CE01\HartLee_CE01\obj\Debug\HartLee_CE01.pdb

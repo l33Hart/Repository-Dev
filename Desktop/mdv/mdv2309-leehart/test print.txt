@@ -1,0 +1,14 @@
+Location  : Cincinnati
+Team      : Bengals
+Division  : North
+Conference: AFC
+
+
+
+Location  : Pittsburgh
+Team      : Steelers
+Division  : North
+Conference: AFC
+
+
+
