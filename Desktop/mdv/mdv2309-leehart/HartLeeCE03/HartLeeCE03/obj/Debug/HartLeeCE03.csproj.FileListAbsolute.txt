@@ -1,0 +1,15 @@
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\HartLeeCE03.exe.config
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\HartLeeCE03.exe
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\HartLeeCE03.pdb
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.csprojAssemblyReference.cache
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.Form1.resources
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.Properties.Resources.resources
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.csproj.GenerateResource.cache
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.csproj.CoreCompileInputs.cache
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.csproj.CopyComplete
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.exe
+C:\Users\Lee Hart\source\repos\HartLeeCE03\HartLeeCE03\obj\Debug\HartLeeCE03.pdb
